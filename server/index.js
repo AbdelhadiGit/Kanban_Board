@@ -75,7 +75,7 @@ const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
         user: 'bakhtiazerreza2000@gmail.com',
-        pass: 'waoccuqttvtghzwm'
+        pass: '****'
     },
 })
 
@@ -94,7 +94,7 @@ app.use(
 const db = mysql.createConnection({
     user: 'root',
     host: 'localhost',
-    password:'mysql@2020',
+    password:'******',
     database: 'loginsystem',
 });
 
