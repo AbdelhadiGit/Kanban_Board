@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/*.body{
+    background-color: rgb(248, 248, 248);
+    margin-left: 360px;
+    margin-right: 360px;
+}*/
+
+.container{
+    background-color: rgb(241, 221, 221);
+    margin-left: 22.5rem;
+    margin-right: 22.5rem;
+    margin-top:9.375rem;
+    padding-top:1.25rem;
+    padding-bottom:1.25rem ;
+    box-shadow: 0 0 0.25rem 0 rgb(134, 134, 134);
+    border-radius: 0.313rem;
+    max-width: 37rem;
+
+    
+    
+}
+
+.formtitle{
+    font-size: 0.625rem;
+    color: gray;
+    margin:auto;
+    padding-left:15.625rem;
+}
+
+.control{
+    padding-left:1.875rem;
+    padding-top: 1.25rem;
+    
+}
+
+input{
+    width: 31.25rem;
+    height: 1.875rem;
+    border:none;
+    border:0.05px solid rgb(178, 174, 174);
+    border-radius:3px;
+    box-sizing: border-box;
+   
+   
+}
+
+i{
+   color: gray;
+    position: absolute;
+    right: 25rem;
+    background-attachment: fixed;
+    
+   
+    
+  
+}
+
+.g-recaptcha{
+    margin-top:1.25rem;
+    margin-left:8.125rem
+
+}
+
+.logbtn{
+    color:white;
+    font-size:14px;
+    font-weight: 550;
+    background-color: rgb(49, 117, 233);
+    margin-left:1.875rem;
+    margin-top:1.25rem;
+    width: 31.25rem;
+    border: none;
+    border-radius: 2px;
+    padding-top:0.469rem;
+    padding-bottom: 0.469rem;
+    
+}
+
+.logbtn:hover{
+    background-color: black;
+    color:wheat
+}
+
+.linkpass{
+    color:rgb(0, 166, 255);
+    font-size:14px;
+    font-weight: 500;
+    margin-left:1.875rem;
+    
+    
+   
+}
+
+.linkregister{
+    color: rgb(0, 166, 255);
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 18.875rem;
+
+    
+}
+
+.linkregister:hover{
+    color:black;
+}
+
+.linkpass:hover{
+    color:black
+}
+
+
+@media (min-width:900px) and (max-width:1250px) {
+    .container {
+
+        transform: scale(1.1);
+        transform: initial;
+        margin-left: auto;
+        align-items: center;
+        max-width: auto;
+        box-sizing: content-box;
+
+    
+    
+    }
+
+    input{
+        max-width: auto;
+        align-items: center;
+    }
+
+    .logbtn{
+        max-width: auto;
+    
+    }
+
+    i{
+        background-color: brown;
+        opacity:0;
+    }
+    
+   
+    
+    
+
+
+
+}
+

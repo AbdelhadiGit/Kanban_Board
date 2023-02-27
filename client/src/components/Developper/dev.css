@@ -1,0 +1,172 @@
+.infinityab{
+    display: flex;
+    background-color:white ;
+    
+    box-shadow: 0 0 7px 0 rgb(134, 134, 134);
+}
+
+.newlogoab{
+    
+    color: rgb(40, 60, 141);
+    margin-left:3rem;
+    font-family: fantasy;
+
+}
+
+.collection{
+    margin-left:65%;
+    margin-top:1.5rem
+}
+
+.dot {
+    margin-left:0.5rem;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+#col1{
+    background-color: black;
+  
+}
+
+#col2{
+    background-color: chartreuse;
+}
+
+#col3{
+    background-color: red;
+}
+
+#col4{
+    background-color: rgb(110, 19, 222);
+}
+
+@keyframes example {
+    from {background-color: red;
+        margin-left:0.5rem;
+    
+    }
+    to {background-color: yellow;
+        margin-left:2rem;
+    
+    }
+  }
+
+@keyframes example1 {
+    from {background-color: black;
+        margin-left:0.5rem;
+    
+    }
+    to {background-color: white;
+        margin-right:2rem;
+    
+    }
+  }
+  @keyframes example2 {
+    from {background-color: rgb(110, 19, 222)ck;
+        margin-left:2rem;
+    
+    }
+    to {background-color: rgb(182, 229, 79);
+        margin-left:0.5rem;
+    
+    }
+  }
+  
+  /* The element to apply the animation to */
+  #col3 {
+   
+   
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 120;
+  }
+
+  #col1{
+    animation-name: example1;
+    animation-duration: 1s;
+    animation-iteration-count: 120;
+
+  }
+
+  #col4{
+    animation-name: example2;
+    animation-duration: 1s;
+    animation-iteration-count: 120;
+   
+  }
+
+  .Intro{
+    margin-left:5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+
+  }
+
+  span{
+    color: orange;
+  }
+
+  .avatar {
+   
+    margin-left:21rem;
+    border-radius: 50%;
+    
+    width:205px;
+    height: 205px;
+    z-index: 1;
+   
+
+   
+  }
+
+
+  .contact{
+   padding-left:4rem;
+   padding-right: 4rem;
+   padding-top:1rem;
+   padding-bottom: 1rem;
+   text-align: center;
+   background-color: blue;
+   color: azure;
+   font-family: fantasy;
+   border: none;
+   border-radius: 40px;
+   box-shadow: 0 0 20px blue;
+   margin-left: 10rem;
+   margin-top:3rem
+
+  
+   
+  
+  }
+
+  .Intro{
+    font-family: fantasy;
+  }
+
+  .skills{
+    display: flex;
+    margin-left: 3rem;
+  }
+
+  .email{
+    color:antiquewhite;
+    text-decoration: none;
+    
+  }
+
+
+.portfolio{
+    margin-top: 5rem;
+
+}
+
+.copy{
+    margin-left: 50%;
+    margin-top: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}

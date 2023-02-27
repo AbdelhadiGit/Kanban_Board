@@ -1,0 +1,86 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 1.25rem;
+    margin-left: 25rem;
+
+
+}
+
+.zoomImg {
+    margin-left: 12rem;
+    margin-top: 0.01rem;
+    width: 8rem;
+    background-color: transparent;
+    border-radius: 100px;
+    opacity: 0.7;
+}
+
+
+.delete {
+    opacity: 0
+}
+
+.delete:hover {
+    opacity: 1
+}
+
+
+
+
+@media (min-width:900px) and (max-width:1250px) {
+    .View{
+
+        transform: scale(0.8,0.95);
+        
+
+
+
+    }
+@media (min-width:1251px) and (max-width:1920px) {
+    .View{
+        transform: scale(1,0.95);
+        box-sizing: border-box;
+    }
+    
+}
+    
+
+    
+
+
+
+
+
+}
+.savebtn{
+    background-color: mediumslateblue;
+    color:snow;
+
+
+   
+    
+    border: none;
+    border-radius: 2px;
+    padding-right: 1rem;
+    padding-left: 1rem ;
+    
+    margin-left: 1rem;
+    
+
+  
+  
+   
+}
+
+.savebtn:hover{
+    color:blue;
+    background-color: burlywood;
+}
+
+.bio{
+    font-family: fantasy;
+    font-size:small;
+    font-weight: 500;
+}

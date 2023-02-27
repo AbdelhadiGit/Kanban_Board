@@ -1,0 +1,128 @@
+/* ===== Google Font Import - Poformsins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+/*.body {
+    background-color: rgb(248, 248, 248);
+    margin-left: 360px;
+    margin-right: 360px;
+}*/
+
+.container {
+    background-color: rgb(241, 221, 221);
+    margin-left: 22.5rem;
+    margin-right: 22.5rem;
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+    box-shadow: 0 0 4px 0 rgb(134, 134, 134);
+    border-radius: 5px;
+    box-sizing: content-box;
+    
+
+
+
+}
+
+.formtitle {
+    font-size: 12px;
+    font-weight: 550;
+    color: rgb(80, 78, 78);
+    margin: auto;
+    padding-left: 15.625rem;
+}
+
+.control {
+    display: flexbox;
+    padding-left: 1.875rem;
+    padding-top: 1.25rem;
+
+}
+
+input {
+    width: 31.25rem;
+    height: 1.875rem;
+    border: none;
+    border: 0.5px solid rgb(178, 174, 174);
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+i {
+    color: gray;
+    position: absolute;
+    right: 25rem;
+    font-size:12px;
+
+
+
+}
+
+.g-recaptcha {
+    margin-top: 0.625rem;
+    margin-left: 8.125rem
+}
+
+.logbtn {
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    background-color: rgb(49, 117, 233);
+    margin-left: 1.875rem;
+    margin-top: 1.25rem;
+    width: 31.25rem;
+    border: none;
+    border-radius: 2px;
+    padding-top: 0.469rem;
+    padding-bottom: 0.469rem;
+
+}
+
+.festablishment {
+    color: rgb(131, 124, 124);
+    width: 31.25rem;
+    height: 1.875rem;
+    border: none;
+    border: 0.5px solid rgb(178, 174, 174);
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+
+input[type='checkbox'] {
+    width: 1rem;
+
+}
+
+li {
+    display: flex;
+    margin-left: 1.75rem;
+}
+
+p {
+    font-size: 11px;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width:900px) and (max-width:1250px) {
+    .container {
+
+        margin-right: calc(48%);
+        margin-left: calc(5%);
+    }
+
+    i {
+        position: absolute;
+        margin-right: calc(10%);
+    }
+
+
+
+}

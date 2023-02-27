@@ -1,0 +1,66 @@
+.blueContainer{
+    background-color: rgb(5, 89, 145);
+    padding: 8rem;
+    text-align: center;
+    
+}
+
+.about{
+    font-size: 40px;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+.quote{
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+h3.elemh3{
+    
+    color: #0c3bd3;
+    font-size: 30px;
+   
+}
+
+.Us{
+    margin-top: 7rem;
+    margin-left:12rem;
+    margin-bottom: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4.elemh41{
+    margin-left: 5.7rem;
+}
+
+h4.elemh42{
+    margin-left: 18rem;
+}
+
+.iner{
+    margin-left: 50rem;
+    padding-right:20px;
+    border:none;
+    border-radius: 10px;
+    
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.uper{
+    margin-left:2rem;
+    padding-right:20px;
+    border:none;
+    border-radius: 10px;
+    
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
